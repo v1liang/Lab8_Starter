@@ -1,1 +1,6 @@
 # Lab 8 - Starter
+Vincent Liang
+1) I would fit automated tests within a Github action so as I attempt to push my code, all the tests that I need to pass can run. If they fail, it will not push, and I am able to debug. If I run after development, then I will not be able to fix bugs as they come up and it might take more time to debug as bugs piling up on each other can get messy. Manually running them locally could work too but using Github action is faster as it is I would just need to git push, whereas manual would be run tests, then push if pass.
+2) no
+3) I would argue no, you shouldn't use a unit test for the message feature of a message application because this involves writing and sending the message, which I interpret as 2 different actions. In addition, messaging involves recieving the message as well from another user.
+4) Yes. Max message length is a small scale feature and simple enough for a unit test. Max message length is a small scale feature in typing a message, which means it does not depend on other parts of the application to work. 
